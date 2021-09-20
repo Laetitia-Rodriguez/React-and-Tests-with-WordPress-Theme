@@ -1,3 +1,15 @@
+# REACT AND TESTS WITH WORDPRESS THEME
+
+I took the same WordPress theme as in the repo named "IntegrationWordPressTheme".
+
+It's just a little try to add simple components with React, without Redux, and doing some unit tests.
+
+Result to get : 
+
+![maquette-a-integrer](docs/maquette-a-integrer.jpg)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
