@@ -5,6 +5,8 @@ import image3 from '../assets/image3.jpg';
 import image4 from '../assets/image4.jpg';
 import image5 from '../assets/image5.jpg';
 import image6 from '../assets/image6.jpg';
+import image7 from '../assets/image7.jpg';
+import image8 from '../assets/image8.jpg';
 
 // Import style
 import './App.scss';
@@ -33,27 +35,27 @@ function App() {
                 <div class="main__top__line"></div>
             </div>
             <div class="main__section">
-                <img class="main__section__small-img" src="img/image1.jpg" alt="" />
-                <img class="main__section__small-img" src="img/image2.jpg" alt="" />
-                <img class="main__section__big-img" src="img/image3.jpg" alt="" />
-                <img class="main__section__small-img" src="img/image4.jpg" alt="" />
-                <img class="main__section__small-img" src="img/image5.jpg" alt="" />
+                <img class="main__section__small-img" src={image1} alt="" />
+                <img class="main__section__small-img" src={image2} alt="" />
+                <img class="main__section__big-img" src={image3} alt="" />
+                <img class="main__section__small-img" src={image4} alt="" />
+                <img class="main__section__small-img" src={image5} alt="" />
             </div>
         </main>
         <footer class="footer">
             <div class="footer__section">
                 <div class="footer__section__img-up">
-                    <img class="footer__section__img-up__img" src="img/image6.jpg" alt="" />
+                    <img class="footer__section__img-up__img" src={image6} alt="" />
                     <h2 class="footer__section__img-up__h2">High fidelity</h2>
                     <p class="footer__section__img-up__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati veniam suscipit odio voluptatem dolorum sint.</p>
             </div>
                 <div class="footer__section__img-down">
                     <h2 class="footer__section__img-down__h2">Ad-free listening</h2>
                     <p class="footer__section__img-down__p">Alias ad dolore delectus in cumque ea blanditiis dolores quod, modi eveniet, tempore ipsam optio.</p>
-                    <img class="footer__section__img-down__img" src="img/image7.jpg" alt="" />
+                    <img class="footer__section__img-down__img" src={image7} alt="" />
                 </div>
                 <div class="footer__section__img-up">
-                    <img class="footer__section__img-up__img" src="img/image8.jpg" alt="" />
+                    <img class="footer__section__img-up__img" src={image8} alt="" />
                     <h2 class="footer__section__img-up__h2">Offline mode</h2>
                     <p class="footer__section__img-up__p">Laboriosam modi illo fuga perspiciatis harum natus facere! Mollitia, sint sit natus accusantium fugit nobis.</p>
                 </div>
