@@ -12,42 +12,6 @@
   margin: 0;
 }
 
-/* Header */
-.header {
-  height: 10vh;
-  width:100vw;
-  position: absolute;
-  top: 0;
-
-  .header__title {
-    position: absolute;
-    left: 0;
-    padding: 1em;
-    text-transform: uppercase;
-  }
-
-  .header__nav {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width:50vw;
-    padding: 1em;
-    display: flex;
-    text-transform: uppercase;
-    justify-content: space-between;
-  }
-
-  .header__nav__a {
-    font-size: 0.5em;
-    text-decoration: none;
-    color: vars.$mainTextColor;
-  }
-
-  .header__nav__a:hover {
-    color: vars.$wavesColor;
-  }
-}
-
 /* Main */
 main {
   position: absolute;

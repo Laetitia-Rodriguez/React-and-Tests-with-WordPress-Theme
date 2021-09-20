@@ -9,11 +9,9 @@ const Header = ({menu}) => (
             <p>Lp apptune</p>
         </div>
         <nav className="header__nav">
-            <ul>
-                {menu.map((link) => (
+            {menu.map((link) => (
                 <a className="header__nav__a" href="#" key={link.title}>{link.title}</a>
             ))}
-            </ul>
         </nav>
     </header>
 );
