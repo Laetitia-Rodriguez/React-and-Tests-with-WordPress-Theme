@@ -1,9 +1,6 @@
 
 import React from 'react';
 
-// Library for the tests
-import { expect } from 'chai';
-
 // shallow makes the render of a JSX component (JSX), without his childs
 // https://enzymejs.github.io/enzyme/docs/api/shallow.html
 import { shallow } from 'enzyme';
@@ -18,6 +15,6 @@ describe('<Header />', () => {
         const wrapper = shallow(<Header menu={menu}/>);
 
         // I verify if the value in the component is the same as I decided up
-        expect(wrapper.find('a')).to.have.length(3);
+        expect(wrapper.find('a')).toHaveLength(3);
     });
 });
