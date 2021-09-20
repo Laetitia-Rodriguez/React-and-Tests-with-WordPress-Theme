@@ -1,3 +1,8 @@
+import React from 'react';
+
+// Components
+import Header from '../Header';
+
 // Import images
 import image1 from '../../assets/image1.jpg';
 import image2 from '../../assets/image2.jpg';
@@ -11,23 +16,14 @@ import image8 from '../../assets/image8.jpg';
 // Import style
 import './app.scss';
 
+// Import data
+import data from '../../data/data.js';
+
+
 function App() {
   return (
       <div className="App">
-        <header className="header">
-            <div className="header__title">
-                <p>Lp apptune</p>
-            </div>
-            <nav className="header__nav">
-                <a className="header__nav__a" href="#">home</a>
-                <a className="header__nav__a" href="#">introduce</a>
-                <a className="header__nav__a" href="#">features</a>
-                <a className="header__nav__a" href="#">portfolio</a>
-                <a className="header__nav__a" href="#">blog</a>
-                <a className="header__nav__a" href="#">woocommerce</a>
-                <a className="header__nav__a" href="#">contact</a>
-            </nav>
-        </header>
+        <Header menu={data.menu} />
         <main className="main">
             <div className="main__top">
                 <p className="main__top__tagline">App company motivation</p>
